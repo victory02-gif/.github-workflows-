@@ -1,8 +1,8 @@
-name: Keep API Awake every 17 mins
+name: Keep API Awake every 10 mins
 on:
   schedule:
-    # Runs every 17 minutes
-    - cron: '*/17 * * * *'
+    # Runs every 10 minutes
+    - cron: '*/10 * * * *'
   workflow_dispatch: # Allows you to run it manually for testing
 
 jobs:
