@@ -2,7 +2,7 @@ name: Keep API Awake
 on:
   schedule:
     # Runs every 5 minutes
-    - cron: '*/5 * * * *'
+    - cron: '*/25* * * *'
   workflow_dispatch: # Allows you to run it manually for testing
 
 jobs:
