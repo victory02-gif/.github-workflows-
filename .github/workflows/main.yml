@@ -1,4 +1,4 @@
-name: Keep API Awake
+name: Keep API Awake every 25 mins
 on:
   schedule:
     # Runs every 25 minutes
