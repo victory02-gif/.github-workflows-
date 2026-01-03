@@ -1,4 +1,4 @@
-name: Keep API Awake every 10 mins
+/*name: Keep API Awake every 10 mins
 on:
   schedule:
     # Runs every 10 minutes
@@ -11,3 +11,4 @@ jobs:
     steps:
       - name: Ping Render API
         run: curl -I http://f-backend-1-8awl.onrender.com/
+*/
